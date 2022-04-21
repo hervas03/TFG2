@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_tienda">
+
+    <fragment
+        android:id="@+id/nav_configuracion"
+        android:name="com.example.tfg.ui.configuracion.ConfiguracionFragment"
+        android:label="@string/menu_configuracion"
+        tools:layout="@layout/fragment_configuracion" />
+    <fragment
+        android:id="@+id/nav_notificaciones"
+        android:name="com.example.tfg.ui.notificaciones.NotificacionesFragment"
+        android:label="@string/menu_notificaciones"
+        tools:layout="@layout/fragment_notificaciones" />
+    <fragment
+        android:id="@+id/nav_eventos"
+        android:name="com.example.tfg.ui.eventos.EventosFragment"
+        android:label="@string/menu_eventos"
+        tools:layout="@layout/fragment_eventos" />
+
+    <fragment
+        android:id="@+id/nav_tienda"
+        android:name="com.example.tfg.ui.tienda.TiendaFragment"
+        android:label="@string/menu_tienda"
+        tools:layout="@layout/fragment_tienda" />
+
+    <fragment
+        android:id="@+id/nav_favoritos"
+        android:name="com.example.tfg.ui.favoritos.FavoritosFragment"
+        android:label="@string/menu_favoritos"
+        tools:layout="@layout/fragment_favoritos" />
+</navigation>

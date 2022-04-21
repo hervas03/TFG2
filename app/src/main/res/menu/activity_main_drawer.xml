@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tienda"
+            android:icon="@drawable/ic_tienda"
+            android:title="@string/menu_tienda" />
+
+        <item
+            android:id="@+id/nav_eventos"
+            android:icon="@drawable/ic_eventos"
+            android:title="@string/menu_eventos" />
+
+        <item
+            android:id="@+id/nav_favoritos"
+            android:icon="@drawable/ic_favoritos"
+            android:title="@string/menu_favoritos" />
+    </group>
+
+    <item android:title="Social">
+        <menu>
+            <item
+                android:id="@+id/nav_notificaciones"
+                android:icon="@drawable/ic_baseline_notifications_24"
+                android:title="@string/menu_notificaciones" />
+        </menu>
+    </item>
+
+    <item android:title="Area Privada">
+        <menu>
+            <item
+                android:id="@+id/nav_configuracion"
+                android:icon="@drawable/ic_ajustes"
+                android:title="@string/menu_configuracion" />
+        </menu>
+    </item>
+
+
+</menu>
